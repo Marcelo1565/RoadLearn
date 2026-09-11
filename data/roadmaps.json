@@ -1,0 +1,325 @@
+{
+  "schema_version": 2,
+  "coverage_note": "Cobertura inicial alinhada a temas recorrentes de ENEM, FUVEST, Unicamp e Unesp; consulte o edital da edição vigente.",
+  "roadmaps": [
+    {
+      "slug": "equacao-2-grau",
+      "area": "Matemática",
+      "area_slug": "matematica",
+      "discipline": "Matemática",
+      "domain": "Álgebra",
+      "exam_targets": ["ENEM", "FUVEST", "Unicamp", "Unesp"],
+      "title": "Equação do 2º Grau",
+      "short_title": "Equação do 2º Grau",
+      "description": "Construa segurança para reconhecer, resolver e interpretar equações quadráticas — do básico às questões contextualizadas do ENEM.",
+      "level": "Intermediário",
+      "duration": "4h 30min",
+      "competencies": ["Álgebra", "Resolução de problemas", "Modelagem"],
+      "accent": "mint",
+      "featured": true,
+      "study_tip": "Não pule a etapa de fatoração: ela ajuda a enxergar a estrutura antes de aplicar uma fórmula.",
+      "stages": [
+        {
+          "id": "conceitos-base",
+          "order": 1,
+          "title": "Reconheça a forma quadrática",
+          "summary": "Identifique os coeficientes a, b e c e diferencie uma equação do 2º grau de outros tipos.",
+          "duration": "35 min",
+          "requires": "Nenhum pré-requisito",
+          "outcomes": ["Reconhecer ax² + bx + c = 0", "Identificar a, b e c", "Organizar uma equação na forma padrão"],
+          "resources": [
+            {"type": "aprender", "title": "Equação do 2º grau: conceitos iniciais", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/matematica/equacao-2-grau.htm"},
+            {"type": "praticar", "title": "Exercícios introdutórios", "source": "Toda Matéria", "url": "https://www.todamateria.com.br/equacao-do-2-grau/"}
+          ]
+        },
+        {
+          "id": "fatoracao",
+          "order": 2,
+          "title": "Explore a fatoração",
+          "summary": "Use produtos notáveis e fatoração para encontrar raízes de equações mais simples.",
+          "duration": "45 min",
+          "requires": "Reconhecer a forma quadrática",
+          "outcomes": ["Relacionar produto nulo e raízes", "Fatorar expressões simples", "Verificar uma solução substituindo na equação"],
+          "resources": [
+            {"type": "aprender", "title": "Fatoração de expressões algébricas", "source": "Khan Academy Brasil", "url": "https://pt.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratics"},
+            {"type": "revisar", "title": "Produtos notáveis e fatoração", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/matematica/fatoracao.htm"}
+          ]
+        },
+        {
+          "id": "bhaskara",
+          "order": 3,
+          "title": "Aplique Bhaskara com sentido",
+          "summary": "Calcule o discriminante, encontre as raízes e interprete quando elas existem.",
+          "duration": "60 min",
+          "requires": "Fatoração e operações com números reais",
+          "outcomes": ["Calcular Δ = b² − 4ac", "Aplicar a fórmula resolutiva", "Interpretar Δ positivo, nulo ou negativo"],
+          "resources": [
+            {"type": "aprender", "title": "Fórmula de Bhaskara passo a passo", "source": "Toda Matéria", "url": "https://www.todamateria.com.br/formula-de-bhaskara/"},
+            {"type": "praticar", "title": "Lista de exercícios resolvidos", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/matematica/formula-bhaskara.htm"}
+          ]
+        },
+        {
+          "id": "problemas",
+          "order": 4,
+          "title": "Modele situações do ENEM",
+          "summary": "Traduza áreas, trajetórias e medidas em equações quadráticas e valide a resposta no contexto.",
+          "duration": "70 min",
+          "requires": "Aplicar Bhaskara com sentido",
+          "outcomes": ["Extrair dados de um enunciado", "Montar uma equação quadrática", "Descartar soluções impossíveis no contexto"],
+          "resources": [
+            {"type": "aprender", "title": "Equações em problemas contextualizados", "source": "Khan Academy Brasil", "url": "https://pt.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratics"},
+            {"type": "praticar", "title": "Questões de Matemática do ENEM", "source": "INEP", "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos"}
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "interpretacao-textual",
+      "area": "Linguagens",
+      "area_slug": "linguagens",
+      "discipline": "Língua Portuguesa",
+      "domain": "Interpretação textual",
+      "exam_targets": ["ENEM", "FUVEST", "Unicamp", "Unesp"],
+      "title": "Interpretação textual",
+      "short_title": "Interpretação textual",
+      "description": "Aprenda a ler além da superfície: localizar informações, perceber efeitos de sentido e construir inferências.",
+      "level": "Fundamental",
+      "duration": "3h 20min",
+      "competencies": ["Leitura", "Inferência", "Variação linguística"],
+      "accent": "coral",
+      "featured": false,
+      "study_tip": "Antes de olhar as alternativas, formule com suas palavras o que o texto está dizendo.",
+      "stages": [
+        {"id": "ideia-central", "order": 1, "title": "Encontre a ideia central", "summary": "Separe tema, tese e informações de apoio em textos de diferentes gêneros.", "duration": "40 min", "requires": "Nenhum pré-requisito", "outcomes": ["Identificar o tema", "Distinguir fato e opinião"], "resources": [{"type": "aprender", "title": "Interpretação de texto", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/redacao/interpretacao-texto.htm"}]},
+        {"id": "inferencias", "order": 2, "title": "Faça inferências", "summary": "Relacione pistas do texto sem confundir interpretação com opinião pessoal.", "duration": "55 min", "requires": "Encontrar a ideia central", "outcomes": ["Relacionar informações", "Justificar uma inferência"], "resources": [{"type": "praticar", "title": "Provas e gabaritos do ENEM", "source": "INEP", "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos"}]},
+        {"id": "efeitos-sentido", "order": 3, "title": "Analise efeitos de sentido", "summary": "Observe escolhas lexicais, ironia, implícitos e relações entre linguagem verbal e visual.", "duration": "65 min", "requires": "Fazer inferências", "outcomes": ["Identificar ironia", "Relacionar escolha linguística e efeito"], "resources": [{"type": "aprender", "title": "Figuras de linguagem", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/portugues/figuras-linguagem.htm"}]},
+        {"id": "generos-textuais", "order": 4, "title": "Compare gêneros textuais", "summary": "Relacione finalidade, público e estrutura em textos de diferentes gêneros.", "duration": "70 min", "requires": "Efeitos de sentido", "outcomes": ["Reconhecer finalidade textual", "Justificar uma interpretação"], "resources": [{"type": "praticar", "title": "Provas e gabaritos", "source": "INEP", "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos"}]}
+      ]
+    },
+    {
+      "slug": "cinematica-basica",
+      "area": "Ciências da Natureza",
+      "area_slug": "natureza",
+      "discipline": "Física",
+      "domain": "Cinemática",
+      "exam_targets": ["ENEM", "FUVEST", "Unicamp", "Unesp"],
+      "title": "Cinemática básica",
+      "short_title": "Cinemática básica",
+      "description": "Organize grandezas, gráficos e equações para compreender movimentos no cotidiano e nas provas.",
+      "level": "Fundamental",
+      "duration": "3h 50min",
+      "competencies": ["Modelos físicos", "Gráficos", "Grandezas"],
+      "accent": "blue",
+      "featured": false,
+      "study_tip": "Desenhe a situação antes de escolher uma fórmula: o gráfico muitas vezes já conta a história.",
+      "stages": [
+        {"id": "grandezas", "order": 1, "title": "Organize as grandezas", "summary": "Diferencie posição, deslocamento, distância e tempo em situações reais.", "duration": "45 min", "requires": "Nenhum pré-requisito", "outcomes": ["Usar unidades coerentes", "Diferenciar distância e deslocamento"], "resources": [{"type": "aprender", "title": "Introdução à cinemática", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/fisica/cinematica.htm"}]},
+        {"id": "movimento-uniforme", "order": 2, "title": "Leia o movimento uniforme", "summary": "Interprete tabelas e gráficos de posição em função do tempo.", "duration": "60 min", "requires": "Organizar as grandezas", "outcomes": ["Calcular velocidade média", "Interpretar um gráfico s × t"], "resources": [{"type": "revisar", "title": "Movimento uniforme", "source": "Toda Matéria", "url": "https://www.todamateria.com.br/movimento-uniforme/"}]},
+        {"id": "aceleracao", "order": 3, "title": "Interprete aceleração", "summary": "Relacione variação de velocidade, tempo e gráficos do movimento variado.", "duration": "65 min", "requires": "Movimento uniforme", "outcomes": ["Calcular aceleração média", "Ler um gráfico v × t"], "resources": [{"type": "aprender", "title": "Movimento uniformemente variado", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/fisica/movimento-uniformemente-variado.htm"}]},
+        {"id": "cinematica-contexto", "order": 4, "title": "Resolva situações de movimento", "summary": "Escolha modelos e interprete trajetórias em problemas contextualizados.", "duration": "80 min", "requires": "Aceleração e gráficos", "outcomes": ["Escolher uma equação", "Validar unidades e resultado"], "resources": [{"type": "praticar", "title": "Provas e gabaritos", "source": "INEP", "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos"}]}
+      ]
+    },
+    {
+      "slug": "republica-brasileira",
+      "area": "Ciências Humanas",
+      "area_slug": "humanas",
+      "discipline": "História",
+      "domain": "Brasil República",
+      "exam_targets": ["ENEM", "FUVEST", "Unicamp", "Unesp"],
+      "title": "República Brasileira",
+      "short_title": "República Brasileira",
+      "description": "Construa uma linha do tempo crítica para conectar períodos, conflitos e permanências na história do Brasil.",
+      "level": "Intermediário",
+      "duration": "4h 10min",
+      "competencies": ["Temporalidade", "Cidadania", "Análise histórica"],
+      "accent": "gold",
+      "featured": false,
+      "study_tip": "Em História, pergunte sempre: quem ganhou poder, quem perdeu e quais estruturas permaneceram?",
+      "stages": [
+        {"id": "primeira-republica", "order": 1, "title": "Primeira República", "summary": "Relacione coronelismo, política dos governadores e os conflitos sociais do período.", "duration": "50 min", "requires": "Nenhum pré-requisito", "outcomes": ["Montar uma linha do tempo", "Relacionar política e sociedade"], "resources": [{"type": "aprender", "title": "Primeira República", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/historiab/primeira-republica.htm"}]},
+        {"id": "era-vargas", "order": 2, "title": "Era Vargas", "summary": "Analise centralização política, trabalho e propaganda na Era Vargas.", "duration": "65 min", "requires": "Compreender a Primeira República", "outcomes": ["Comparar fases do período", "Analisar fontes históricas"], "resources": [{"type": "revisar", "title": "Era Vargas", "source": "Toda Matéria", "url": "https://www.todamateria.com.br/era-vargas/"}]},
+        {"id": "ditadura-militar", "order": 3, "title": "Ditadura e redemocratização", "summary": "Relacione autoritarismo, resistência, abertura política e Constituição de 1988.", "duration": "75 min", "requires": "Era Vargas e democracia", "outcomes": ["Organizar uma linha do tempo", "Analisar autoritarismo e resistência"], "resources": [{"type": "aprender", "title": "Ditadura Militar no Brasil", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/historiab/golpe-militar.htm"}]},
+        {"id": "republica-fontes", "order": 4, "title": "Compare fontes da República", "summary": "Use discursos, imagens e dados para construir interpretações históricas.", "duration": "85 min", "requires": "Ditadura e redemocratização", "outcomes": ["Contextualizar uma fonte", "Comparar perspectivas históricas"], "resources": [{"type": "praticar", "title": "Provas anteriores", "source": "FUVEST", "url": "https://www.fuvest.br/vestibular-da-fuvest/"}]}
+      ]
+    },
+    {
+      "slug": "funcoes-e-graficos",
+      "area": "Matemática", "area_slug": "matematica", "discipline": "Matemática", "domain": "Funções",
+      "exam_targets": ["ENEM", "FUVEST", "Unicamp", "Unesp"], "title": "Funções e gráficos", "short_title": "Funções e gráficos",
+      "description": "Leia relações entre grandezas, reconheça gráficos e modele situações com funções.", "level": "Intermediário", "duration": "5h 20min",
+      "competencies": ["Modelagem", "Gráficos", "Variação"], "accent": "mint", "featured": false,
+      "study_tip": "Antes de calcular, identifique o que varia e qual grandeza depende da outra.",
+      "stages": [
+        {"id": "relacoes-grandezas", "order": 1, "title": "Relacione grandezas", "summary": "Reconheça domínio, imagem e dependência entre grandezas.", "duration": "55 min", "requires": "Operações e pares ordenados", "outcomes": ["Identificar variável independente", "Interpretar uma tabela"], "resources": [{"type": "aprender", "title": "Introdução às funções", "source": "Khan Academy Brasil", "url": "https://pt.khanacademy.org/math/algebra"}]},
+        {"id": "funcao-afim", "order": 2, "title": "Modele funções afins", "summary": "Use taxa de variação e valor inicial em situações lineares.", "duration": "70 min", "requires": "Relacione grandezas", "outcomes": ["Encontrar a lei de uma função", "Interpretar coeficientes"], "resources": [{"type": "revisar", "title": "Função afim", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/matematica/funcao-1-grau.htm"}]},
+        {"id": "funcao-quadratica", "order": 3, "title": "Interprete parábolas", "summary": "Relacione raízes, vértice e concavidade em funções quadráticas.", "duration": "80 min", "requires": "Função afim e equação do 2º grau", "outcomes": ["Localizar o vértice", "Relacionar gráfico e expressão"], "resources": [{"type": "aprender", "title": "Função quadrática", "source": "Toda Matéria", "url": "https://www.todamateria.com.br/funcao-quadratica/"}]},
+        {"id": "modelagem-funcoes", "order": 4, "title": "Resolva problemas de modelagem", "summary": "Escolha uma função, valide o modelo e interprete a resposta no contexto.", "duration": "95 min", "requires": "Interpretar gráficos", "outcomes": ["Escolher um modelo", "Validar uma resposta contextualizada"], "resources": [{"type": "praticar", "title": "Provas e gabaritos do ENEM", "source": "INEP", "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos"}]}
+      ]
+    },
+    {
+      "slug": "estatistica-probabilidade",
+      "area": "Matemática", "area_slug": "matematica", "discipline": "Matemática", "domain": "Estatística e probabilidade", "exam_targets": ["ENEM", "FUVEST", "Unicamp", "Unesp"],
+      "title": "Estatística e probabilidade", "short_title": "Estatística e probabilidade", "description": "Transforme tabelas, gráficos e incertezas em decisões matemáticas justificadas.", "level": "Intermediário", "duration": "4h 50min", "competencies": ["Dados", "Probabilidade", "Leitura de gráficos"], "accent": "mint", "featured": false, "study_tip": "Pergunte sempre qual é o total de referência antes de calcular uma porcentagem.",
+      "stages": [
+        {"id": "leitura-dados", "order": 1, "title": "Leia tabelas e gráficos", "summary": "Compare escalas, categorias e tendências sem ser enganado pela apresentação visual.", "duration": "55 min", "requires": "Operações e porcentagens", "outcomes": ["Identificar variáveis", "Comparar dados com segurança"], "resources": [{"type": "aprender", "title": "Estatística básica", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/matematica/estatistica.htm"}]},
+        {"id": "medidas-resumo", "order": 2, "title": "Calcule medidas de tendência", "summary": "Use média, mediana e moda de acordo com a pergunta.", "duration": "65 min", "requires": "Leia tabelas e gráficos", "outcomes": ["Calcular média", "Escolher uma medida adequada"], "resources": [{"type": "revisar", "title": "Média, moda e mediana", "source": "Toda Matéria", "url": "https://www.todamateria.com.br/media-moda-e-mediana/"}]},
+        {"id": "probabilidade-basica", "order": 3, "title": "Conte possibilidades", "summary": "Organize espaço amostral e eventos em experimentos simples.", "duration": "70 min", "requires": "Frações e análise combinatória básica", "outcomes": ["Definir espaço amostral", "Calcular probabilidade simples"], "resources": [{"type": "aprender", "title": "Probabilidade", "source": "Khan Academy Brasil", "url": "https://pt.khanacademy.org/math/statistics-probability"}]},
+        {"id": "dados-contexto", "order": 4, "title": "Interprete dados no contexto", "summary": "Resolva questões com indicadores, margem de comparação e tomada de decisão.", "duration": "80 min", "requires": "Medidas e probabilidade", "outcomes": ["Justificar uma conclusão", "Detectar uma interpretação inadequada"], "resources": [{"type": "praticar", "title": "Provas e gabaritos do ENEM", "source": "INEP", "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos"}]}
+      ]
+    },
+    {
+      "slug": "redacao-dissertativa",
+      "area": "Linguagens", "area_slug": "linguagens", "discipline": "Redação", "domain": "Texto dissertativo-argumentativo", "exam_targets": ["ENEM", "FUVEST", "Unicamp", "Unesp"],
+      "title": "Redação dissertativo-argumentativa", "short_title": "Redação", "description": "Planeje, escreva e revise textos argumentativos adequados a diferentes propostas de vestibular.", "level": "Intermediário", "duration": "6h 00min", "competencies": ["Argumentação", "Coesão", "Repertório"], "accent": "coral", "featured": true, "study_tip": "Uma boa redação começa antes da primeira frase: leia a proposta e delimite o problema.",
+      "stages": [
+        {"id": "leitura-proposta", "order": 1, "title": "Leia e delimite a proposta", "summary": "Identifique tema, recorte, gênero e critérios de cada exame.", "duration": "60 min", "requires": "Interpretação textual", "outcomes": ["Delimitar um tema", "Identificar o comando da proposta"], "resources": [{"type": "aprender", "title": "Cartilha do participante — Redação ENEM", "source": "INEP", "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem"}]},
+        {"id": "tese-argumentos", "order": 2, "title": "Construa tese e argumentos", "summary": "Organize uma posição clara e selecione razões relevantes para sustentá-la.", "duration": "90 min", "requires": "Leitura da proposta", "outcomes": ["Escrever uma tese", "Diferenciar argumento de exemplo"], "resources": [{"type": "revisar", "title": "Como construir uma redação", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/redacao"}]},
+        {"id": "coesao-repertorio", "order": 3, "title": "Conecte ideias e repertórios", "summary": "Use coesão, referências produtivas e relações de causa e consequência.", "duration": "90 min", "requires": "Tese e argumentos", "outcomes": ["Usar conectivos com precisão", "Relacionar repertório ao argumento"], "resources": [{"type": "aprender", "title": "Coesão e coerência", "source": "Toda Matéria", "url": "https://www.todamateria.com.br/coesao-e-coerencia/"}]},
+        {"id": "producao-revisao", "order": 4, "title": "Escreva e revise", "summary": "Produza uma versão completa, revise critérios e reescreva trechos frágeis.", "duration": "120 min", "requires": "Estrutura argumentativa", "outcomes": ["Produzir um texto completo", "Revisar linguagem e projeto de texto"], "resources": [{"type": "praticar", "title": "Redações nota mil comentadas", "source": "INEP", "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem"}]}
+      ]
+    },
+    {
+      "slug": "literatura-brasileira",
+      "area": "Linguagens", "area_slug": "linguagens", "discipline": "Literatura", "domain": "Literatura brasileira", "exam_targets": ["FUVEST", "Unicamp", "Unesp", "ENEM"],
+      "title": "Literatura brasileira", "short_title": "Literatura brasileira", "description": "Leia obras literárias relacionando forma, contexto histórico, linguagem e vozes sociais.", "level": "Intermediário", "duration": "5h 30min", "competencies": ["Leitura literária", "Contexto", "Análise de linguagem"], "accent": "coral", "featured": false, "study_tip": "Contexto ajuda a ler a obra, mas não substitui a atenção às escolhas de linguagem do texto.",
+      "stages": [
+        {"id": "generos-literarios", "order": 1, "title": "Reconheça gêneros e formas", "summary": "Observe narrador, eu lírico, enredo, ritmo e composição.", "duration": "70 min", "requires": "Interpretação textual", "outcomes": ["Distinguir gêneros", "Identificar recursos formais"], "resources": [{"type": "aprender", "title": "Gêneros literários", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/literatura"}]},
+        {"id": "periodos-literarios", "order": 2, "title": "Organize períodos literários", "summary": "Relacione movimentos, rupturas e permanências na literatura brasileira.", "duration": "80 min", "requires": "Gêneros literários", "outcomes": ["Montar uma linha do tempo", "Relacionar estética e contexto"], "resources": [{"type": "revisar", "title": "Escolas literárias", "source": "Toda Matéria", "url": "https://www.todamateria.com.br/escolas-literarias/"}]},
+        {"id": "leitura-obras", "order": 3, "title": "Leia obras com evidências", "summary": "Sustente interpretações com passagens, imagens e escolhas narrativas.", "duration": "100 min", "requires": "Períodos literários", "outcomes": ["Formular uma hipótese de leitura", "Usar evidências do texto"], "resources": [{"type": "praticar", "title": "Acervo de provas e questões", "source": "FUVEST", "url": "https://www.fuvest.br/vestibular-da-fuvest/"}]},
+        {"id": "comparacao-literaria", "order": 4, "title": "Compare textos e vozes", "summary": "Analise como diferentes obras tratam temas, grupos e conflitos.", "duration": "100 min", "requires": "Leitura atenta de obras", "outcomes": ["Comparar procedimentos", "Construir uma resposta analítica"], "resources": [{"type": "praticar", "title": "Provas anteriores", "source": "Unicamp", "url": "https://www.comvest.unicamp.br/vestibulares-anteriores/"}]}
+      ]
+    },
+    {
+      "slug": "lingua-inglesa-leitura",
+      "area": "Linguagens", "area_slug": "linguagens", "discipline": "Língua Inglesa", "domain": "Leitura em língua estrangeira", "exam_targets": ["ENEM", "FUVEST", "Unesp"],
+      "title": "Língua Inglesa e leitura", "short_title": "Inglês e leitura", "description": "Use contexto, vocabulário e estratégias de leitura para compreender textos em inglês.", "level": "Fundamental", "duration": "4h 20min", "competencies": ["Leitura", "Vocabulário", "Contexto"], "accent": "coral", "featured": false, "study_tip": "Você não precisa traduzir cada palavra: procure a função e as pistas que organizam o texto.",
+      "stages": [
+        {"id": "cognatos-contexto", "order": 1, "title": "Use cognatos e contexto", "summary": "Reconheça palavras transparentes sem cair em falsos cognatos.", "duration": "55 min", "requires": "Estratégias de leitura", "outcomes": ["Inferir vocabulário", "Identificar falsos cognatos"], "resources": [{"type": "aprender", "title": "Reading strategies", "source": "Khan Academy", "url": "https://www.khanacademy.org/ela"}]},
+        {"id": "ideia-principal-ingles", "order": 2, "title": "Localize ideia e informação", "summary": "Encontre tema, informação explícita e detalhes relevantes.", "duration": "65 min", "requires": "Contexto e vocabulário", "outcomes": ["Identificar ideia principal", "Localizar informação"], "resources": [{"type": "revisar", "title": "Interpretação de texto em inglês", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/ingles"}]},
+        {"id": "inferencias-ingles", "order": 3, "title": "Faça inferências", "summary": "Relacione pronomes, conectivos e escolhas de linguagem.", "duration": "70 min", "requires": "Ideia principal", "outcomes": ["Interpretar referência pronominal", "Reconhecer relação lógica"], "resources": [{"type": "praticar", "title": "Questões de língua estrangeira", "source": "INEP", "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem"}]},
+        {"id": "generos-ingles", "order": 4, "title": "Leia gêneros diversos", "summary": "Adapte a estratégia a notícia, anúncio, artigo, tirinha e texto digital.", "duration": "90 min", "requires": "Inferência", "outcomes": ["Reconhecer finalidade", "Relacionar texto e público"], "resources": [{"type": "praticar", "title": "Provas anteriores", "source": "Unesp", "url": "https://vestibular.unesp.br/"}]}
+      ]
+    },
+    {
+      "slug": "fisica-energia-trabalho",
+      "area": "Ciências da Natureza", "area_slug": "natureza", "discipline": "Física", "domain": "Trabalho e energia", "exam_targets": ["ENEM", "FUVEST", "Unicamp", "Unesp"],
+      "title": "Trabalho e energia", "short_title": "Trabalho e energia", "description": "Relacione força, deslocamento e conservação de energia em situações físicas.", "level": "Intermediário", "duration": "5h 10min", "competencies": ["Modelagem física", "Conservação", "Gráficos"], "accent": "blue", "featured": false, "study_tip": "Faça um desenho e defina o sistema antes de escolher a equação.",
+      "stages": [
+        {"id": "trabalho-forca", "order": 1, "title": "Relacione força e deslocamento", "summary": "Calcule trabalho em situações com força constante.", "duration": "65 min", "requires": "Vetores e cinemática", "outcomes": ["Interpretar trabalho", "Relacionar força e deslocamento"], "resources": [{"type": "aprender", "title": "Trabalho e energia", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/fisica/trabalho.htm"}]},
+        {"id": "energia-cinetica", "order": 2, "title": "Use energia cinética", "summary": "Conecte massa, velocidade e trabalho resultante.", "duration": "70 min", "requires": "Trabalho de uma força", "outcomes": ["Calcular energia cinética", "Aplicar teorema trabalho-energia"], "resources": [{"type": "revisar", "title": "Energia cinética", "source": "Toda Matéria", "url": "https://www.todamateria.com.br/energia-cinetica/"}]},
+        {"id": "energia-potencial", "order": 3, "title": "Compare energias potenciais", "summary": "Analise energia gravitacional e elástica em diferentes referências.", "duration": "70 min", "requires": "Energia cinética", "outcomes": ["Escolher referência", "Relacionar altura e energia"], "resources": [{"type": "aprender", "title": "Energia potencial", "source": "Khan Academy Brasil", "url": "https://pt.khanacademy.org/science/physics"}]},
+        {"id": "conservacao-energia", "order": 4, "title": "Modele conservação de energia", "summary": "Resolva situações contextualizadas identificando perdas e transformações.", "duration": "95 min", "requires": "Energias cinética e potencial", "outcomes": ["Montar balanço energético", "Interpretar perdas"], "resources": [{"type": "praticar", "title": "Provas e gabaritos", "source": "INEP", "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos"}]}
+      ]
+    },
+    {
+      "slug": "eletricidade-basica",
+      "area": "Ciências da Natureza", "area_slug": "natureza", "discipline": "Física", "domain": "Eletricidade", "exam_targets": ["ENEM", "FUVEST", "Unicamp", "Unesp"],
+      "title": "Eletricidade básica", "short_title": "Eletricidade básica", "description": "Entenda corrente, tensão, resistência e consumo em circuitos do cotidiano.", "level": "Intermediário", "duration": "4h 50min", "competencies": ["Circuitos", "Grandezas", "Tecnologia"], "accent": "blue", "featured": false, "study_tip": "Desenhe o circuito e acompanhe o caminho da corrente antes de calcular.",
+      "stages": [
+        {"id": "carga-corrente", "order": 1, "title": "Entenda carga e corrente", "summary": "Diferencie carga, corrente e sentido convencional.", "duration": "55 min", "requires": "Grandezas e unidades", "outcomes": ["Interpretar corrente", "Usar ampère e coulomb"], "resources": [{"type": "aprender", "title": "Corrente elétrica", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/fisica/corrente-eletrica.htm"}]},
+        {"id": "lei-ohm", "order": 2, "title": "Aplique a Lei de Ohm", "summary": "Relacione tensão, resistência e corrente em resistores.", "duration": "65 min", "requires": "Corrente e diferença de potencial", "outcomes": ["Usar V = Ri", "Interpretar resistência"], "resources": [{"type": "revisar", "title": "Lei de Ohm", "source": "Toda Matéria", "url": "https://www.todamateria.com.br/lei-de-ohm/"}]},
+        {"id": "circuitos", "order": 3, "title": "Leia circuitos", "summary": "Compare associações em série e paralelo.", "duration": "75 min", "requires": "Lei de Ohm", "outcomes": ["Distinguir série e paralelo", "Calcular resistência equivalente"], "resources": [{"type": "aprender", "title": "Circuitos elétricos", "source": "Khan Academy Brasil", "url": "https://pt.khanacademy.org/science/physics"}]},
+        {"id": "consumo-eletrico", "order": 4, "title": "Interprete consumo de energia", "summary": "Calcule potência, consumo e custo em aparelhos domésticos.", "duration": "75 min", "requires": "Circuitos e potência", "outcomes": ["Calcular potência", "Interpretar kWh e custo"], "resources": [{"type": "praticar", "title": "Provas e gabaritos", "source": "INEP", "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos"}]}
+      ]
+    },
+    {
+      "slug": "quimica-estequiometria",
+      "area": "Ciências da Natureza", "area_slug": "natureza", "discipline": "Química", "domain": "Estequiometria", "exam_targets": ["ENEM", "FUVEST", "Unicamp", "Unesp"],
+      "title": "Química: matéria e estequiometria", "short_title": "Estequiometria", "description": "Leia transformações químicas e faça relações quantitativas entre reagentes e produtos.", "level": "Intermediário", "duration": "5h 40min", "competencies": ["Transformações", "Proporções", "Modelagem"], "accent": "blue", "featured": false, "study_tip": "Balanceie a equação antes de fazer qualquer proporção.",
+      "stages": [
+        {"id": "materia-transformacoes", "order": 1, "title": "Reconheça transformações", "summary": "Diferencie fenômenos físicos e químicos e represente reações.", "duration": "65 min", "requires": "Leitura de símbolos e unidades", "outcomes": ["Identificar reação química", "Reconhecer reagentes e produtos"], "resources": [{"type": "aprender", "title": "Transformações químicas", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/quimica"}]},
+        {"id": "balanceamento", "order": 2, "title": "Balanceie equações", "summary": "Conserve átomos ao ajustar coeficientes de uma reação.", "duration": "75 min", "requires": "Representação de reações", "outcomes": ["Balancear uma equação", "Verificar conservação"], "resources": [{"type": "revisar", "title": "Balanceamento químico", "source": "Toda Matéria", "url": "https://www.todamateria.com.br/balanceamento-quimico/"}]},
+        {"id": "mol-massa", "order": 3, "title": "Relacione mol e massa", "summary": "Use massa molar e quantidade de matéria em cálculos.", "duration": "90 min", "requires": "Balanceamento e tabela periódica", "outcomes": ["Calcular massa molar", "Converter mol e massa"], "resources": [{"type": "aprender", "title": "Mol e massa molar", "source": "Khan Academy Brasil", "url": "https://pt.khanacademy.org/science/chemistry"}]},
+        {"id": "rendimento-reagente", "order": 4, "title": "Resolva situações reais", "summary": "Considere reagente limitante, rendimento e pureza em problemas.", "duration": "110 min", "requires": "Relações estequiométricas", "outcomes": ["Identificar reagente limitante", "Calcular rendimento"], "resources": [{"type": "praticar", "title": "Provas e gabaritos", "source": "INEP", "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos"}]}
+      ]
+    },
+    {
+      "slug": "biologia-ecologia",
+      "area": "Ciências da Natureza", "area_slug": "natureza", "discipline": "Biologia", "domain": "Ecologia", "exam_targets": ["ENEM", "FUVEST", "Unicamp", "Unesp"],
+      "title": "Ecologia e relações ambientais", "short_title": "Ecologia", "description": "Conecte níveis de organização, fluxos de energia e impactos ambientais.", "level": "Intermediário", "duration": "5h 00min", "competencies": ["Sistemas", "Ambiente", "Sustentabilidade"], "accent": "blue", "featured": false, "study_tip": "Desenhe as relações entre organismo, ambiente e fluxo de energia antes de memorizar termos.",
+      "stages": [
+        {"id": "niveis-ecologicos", "order": 1, "title": "Organize níveis ecológicos", "summary": "Diferencie indivíduo, população, comunidade, ecossistema e biosfera.", "duration": "60 min", "requires": "Conceitos básicos de Biologia", "outcomes": ["Classificar níveis", "Relacionar organismo e ambiente"], "resources": [{"type": "aprender", "title": "Ecologia", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/biologia/ecologia.htm"}]},
+        {"id": "cadeias-teias", "order": 2, "title": "Leia cadeias e teias", "summary": "Interprete níveis tróficos e fluxo de energia.", "duration": "70 min", "requires": "Níveis ecológicos", "outcomes": ["Identificar níveis tróficos", "Interpretar pirâmides ecológicas"], "resources": [{"type": "revisar", "title": "Cadeia alimentar", "source": "Toda Matéria", "url": "https://www.todamateria.com.br/cadeia-alimentar/"}]},
+        {"id": "ciclos-populacoes", "order": 3, "title": "Analise populações e ciclos", "summary": "Relacione crescimento populacional, ciclos biogeoquímicos e equilíbrio.", "duration": "75 min", "requires": "Fluxo de energia", "outcomes": ["Interpretar crescimento", "Relacionar ciclos e vida"], "resources": [{"type": "aprender", "title": "Ciclos biogeoquímicos", "source": "Khan Academy Brasil", "url": "https://pt.khanacademy.org/science/biology"}]},
+        {"id": "impactos-sustentabilidade", "order": 4, "title": "Avalie impactos ambientais", "summary": "Use evidências para discutir poluição, conservação e sustentabilidade.", "duration": "95 min", "requires": "Populações e ciclos", "outcomes": ["Interpretar dados ambientais", "Propor ação fundamentada"], "resources": [{"type": "praticar", "title": "Provas e gabaritos", "source": "INEP", "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos"}]}
+      ]
+    },
+    {
+      "slug": "biologia-genetica-evolucao",
+      "area": "Ciências da Natureza", "area_slug": "natureza", "discipline": "Biologia", "domain": "Genética e evolução", "exam_targets": ["ENEM", "FUVEST", "Unicamp", "Unesp"],
+      "title": "Genética e evolução", "short_title": "Genética e evolução", "description": "Compreenda hereditariedade, variabilidade e seleção natural usando modelos biológicos.", "level": "Intermediário", "duration": "5h 30min", "competencies": ["Hereditariedade", "Variabilidade", "Evolução"], "accent": "blue", "featured": false, "study_tip": "Separe sempre gene, alelo, característica e fenótipo ao resolver problemas.",
+      "stages": [
+        {"id": "dna-gene", "order": 1, "title": "Organize DNA e genes", "summary": "Relacione material genético, cromossomos e expressão de características.", "duration": "70 min", "requires": "Citologia básica", "outcomes": ["Diferenciar gene e alelo", "Relacionar DNA e característica"], "resources": [{"type": "aprender", "title": "Genética", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/biologia/genetica.htm"}]},
+        {"id": "mendel", "order": 2, "title": "Use modelos de Mendel", "summary": "Resolva cruzamentos simples e leia heredogramas.", "duration": "85 min", "requires": "DNA e alelos", "outcomes": ["Montar quadro de Punnett", "Interpretar probabilidade genética"], "resources": [{"type": "revisar", "title": "Leis de Mendel", "source": "Toda Matéria", "url": "https://www.todamateria.com.br/leis-de-mendel/"}]},
+        {"id": "variabilidade", "order": 3, "title": "Explique variabilidade", "summary": "Relacione mutações, recombinação e reprodução à diversidade.", "duration": "75 min", "requires": "Hereditariedade", "outcomes": ["Identificar fontes de variabilidade", "Relacionar mutação e população"], "resources": [{"type": "aprender", "title": "Evolução", "source": "Khan Academy Brasil", "url": "https://pt.khanacademy.org/science/biology"}]},
+        {"id": "selecao-evolucao", "order": 4, "title": "Interprete seleção natural", "summary": "Analise evidências, adaptação e mudanças em populações.", "duration": "90 min", "requires": "Variabilidade", "outcomes": ["Distinguir adaptação de esforço individual", "Interpretar evidências evolutivas"], "resources": [{"type": "praticar", "title": "Provas e gabaritos", "source": "INEP", "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos"}]}
+      ]
+    },
+    {
+      "slug": "geografia-urbanizacao-globalizacao",
+      "area": "Ciências Humanas", "area_slug": "humanas", "discipline": "Geografia", "domain": "População, urbanização e globalização", "exam_targets": ["ENEM", "FUVEST", "Unicamp", "Unesp"],
+      "title": "População, urbanização e globalização", "short_title": "Urbanização e globalização", "description": "Interprete mapas, indicadores e processos que organizam o espaço geográfico.", "level": "Intermediário", "duration": "5h 20min", "competencies": ["Espaço geográfico", "Dados", "Geopolítica"], "accent": "gold", "featured": false, "study_tip": "Localize o fenômeno, identifique a escala e só depois procure suas causas.",
+      "stages": [
+        {"id": "indicadores-populacao", "order": 1, "title": "Leia indicadores populacionais", "summary": "Compare crescimento, estrutura etária e distribuição da população.", "duration": "65 min", "requires": "Leitura de gráficos", "outcomes": ["Interpretar pirâmide etária", "Relacionar indicadores"], "resources": [{"type": "aprender", "title": "População", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/geografia/populacao.htm"}]},
+        {"id": "urbanizacao", "order": 2, "title": "Explique urbanização", "summary": "Relacione industrialização, rede urbana e desigualdade socioespacial.", "duration": "75 min", "requires": "Indicadores populacionais", "outcomes": ["Definir urbanização", "Interpretar problemas urbanos"], "resources": [{"type": "revisar", "title": "Urbanização", "source": "Toda Matéria", "url": "https://www.todamateria.com.br/urbanizacao/"}]},
+        {"id": "globalizacao-redes", "order": 3, "title": "Analise redes da globalização", "summary": "Observe fluxos de capital, pessoas, mercadorias e informação.", "duration": "80 min", "requires": "Rede urbana", "outcomes": ["Interpretar fluxos", "Relacionar tecnologia e território"], "resources": [{"type": "aprender", "title": "Globalização", "source": "Khan Academy Brasil", "url": "https://pt.khanacademy.org/humanities"}]},
+        {"id": "questoes-geografia", "order": 4, "title": "Resolva problemas espaciais", "summary": "Combine mapas, textos e indicadores em questões contextualizadas.", "duration": "100 min", "requires": "Globalização e indicadores", "outcomes": ["Cruzar fontes", "Justificar uma análise espacial"], "resources": [{"type": "praticar", "title": "Provas e gabaritos", "source": "INEP", "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos"}]}
+      ]
+    },
+    {
+      "slug": "historia-brasil-colonia-imperio",
+      "area": "Ciências Humanas", "area_slug": "humanas", "discipline": "História", "domain": "Brasil Colônia e Império", "exam_targets": ["ENEM", "FUVEST", "Unicamp", "Unesp"],
+      "title": "Brasil Colônia e Império", "short_title": "Colônia e Império", "description": "Construa relações entre colonização, escravidão, independência e formação do Estado brasileiro.", "level": "Intermediário", "duration": "5h 20min", "competencies": ["Temporalidade", "Poder", "Fontes históricas"], "accent": "gold", "featured": false, "study_tip": "Leia os processos históricos perguntando quais grupos tinham poder e quais ficaram invisibilizados.",
+      "stages": [
+        {"id": "colonizacao", "order": 1, "title": "Compreenda a colonização", "summary": "Relacione exploração, administração e disputas no espaço colonial.", "duration": "70 min", "requires": "Noções de temporalidade", "outcomes": ["Relacionar colonização e mercantilismo", "Identificar agentes históricos"], "resources": [{"type": "aprender", "title": "Brasil Colônia", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/historiab"}]},
+        {"id": "escravidao-resistencia", "order": 2, "title": "Analise escravidão e resistência", "summary": "Reconheça violência, agência, resistências e permanências sociais.", "duration": "80 min", "requires": "Colonização", "outcomes": ["Analisar relações de trabalho", "Reconhecer formas de resistência"], "resources": [{"type": "revisar", "title": "Escravidão no Brasil", "source": "Toda Matéria", "url": "https://www.todamateria.com.br/escravidao-no-brasil/"}]},
+        {"id": "independencia-imperio", "order": 3, "title": "Explique Independência e Império", "summary": "Relacione crise colonial, independência e disputas na formação do Estado.", "duration": "75 min", "requires": "Colônia e conflitos sociais", "outcomes": ["Construir linha do tempo", "Relacionar independência e poder"], "resources": [{"type": "aprender", "title": "Brasil Império", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/historiab/brasil-imperio.htm"}]},
+        {"id": "fontes-historia-brasil", "order": 4, "title": "Interprete fontes históricas", "summary": "Use textos, imagens e dados para formular explicações históricas.", "duration": "95 min", "requires": "Processos do Império", "outcomes": ["Contextualizar uma fonte", "Comparar interpretações"], "resources": [{"type": "praticar", "title": "Provas anteriores", "source": "FUVEST", "url": "https://www.fuvest.br/vestibular-da-fuvest/"}]}
+      ]
+    },
+    {
+      "slug": "sociologia-cidadania-desigualdade",
+      "area": "Ciências Humanas", "area_slug": "humanas", "discipline": "Sociologia", "domain": "Cidadania, trabalho e desigualdade", "exam_targets": ["ENEM", "FUVEST", "Unicamp", "Unesp"],
+      "title": "Cidadania, trabalho e desigualdade", "short_title": "Sociologia e cidadania", "description": "Use conceitos sociológicos para interpretar relações de poder, trabalho e participação social.", "level": "Fundamental", "duration": "4h 40min", "competencies": ["Cidadania", "Trabalho", "Análise crítica"], "accent": "gold", "featured": false, "study_tip": "Não use conceitos sociológicos como opiniões: defina-os e conecte-os a evidências.",
+      "stages": [
+        {"id": "olhar-sociologico", "order": 1, "title": "Desenvolva o olhar sociológico", "summary": "Diferencie explicação individual de análise de estruturas sociais.", "duration": "60 min", "requires": "Leitura e interpretação", "outcomes": ["Definir fato social", "Relacionar indivíduo e sociedade"], "resources": [{"type": "aprender", "title": "Introdução à Sociologia", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/sociologia"}]},
+        {"id": "trabalho-capitalismo", "order": 2, "title": "Analise trabalho e capitalismo", "summary": "Compare produção, relações de trabalho e transformações tecnológicas.", "duration": "70 min", "requires": "Olhar sociológico", "outcomes": ["Relacionar trabalho e sociedade", "Interpretar mudanças produtivas"], "resources": [{"type": "revisar", "title": "Trabalho e sociedade", "source": "Toda Matéria", "url": "https://www.todamateria.com.br/sociologia/"}]},
+        {"id": "cidadania-direitos", "order": 3, "title": "Relacione cidadania e direitos", "summary": "Compreenda direitos civis, políticos e sociais em contextos históricos.", "duration": "70 min", "requires": "Estado e trabalho", "outcomes": ["Classificar direitos", "Analisar participação política"], "resources": [{"type": "aprender", "title": "Cidadania", "source": "Khan Academy Brasil", "url": "https://pt.khanacademy.org/humanities"}]},
+        {"id": "desigualdade-dados", "order": 4, "title": "Interprete desigualdades", "summary": "Leia indicadores e discuta raça, gênero, renda e território.", "duration": "80 min", "requires": "Cidadania e indicadores", "outcomes": ["Interpretar dados sociais", "Construir análise fundamentada"], "resources": [{"type": "praticar", "title": "Provas e gabaritos", "source": "INEP", "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos"}]}
+      ]
+    },
+    {
+      "slug": "filosofia-etica-politica",
+      "area": "Ciências Humanas", "area_slug": "humanas", "discipline": "Filosofia", "domain": "Ética e política", "exam_targets": ["ENEM", "FUVEST", "Unicamp", "Unesp"],
+      "title": "Ética, política e pensamento crítico", "short_title": "Ética e política", "description": "Leia argumentos filosóficos e use conceitos para analisar escolhas, poder e justiça.", "level": "Intermediário", "duration": "4h 50min", "competencies": ["Argumentação", "Ética", "Política"], "accent": "gold", "featured": false, "study_tip": "Reconstrua o argumento do autor antes de concordar ou discordar dele.",
+      "stages": [
+        {"id": "argumento-filosofico", "order": 1, "title": "Reconheça um argumento", "summary": "Identifique tese, razões, pressupostos e consequências.", "duration": "60 min", "requires": "Interpretação textual", "outcomes": ["Localizar tese", "Distinguir razão e exemplo"], "resources": [{"type": "aprender", "title": "Introdução à Filosofia", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/filosofia"}]},
+        {"id": "etica-virtude-dever", "order": 2, "title": "Compare teorias éticas", "summary": "Relacione virtude, dever e consequências em dilemas morais.", "duration": "75 min", "requires": "Estrutura de argumentos", "outcomes": ["Comparar teorias", "Aplicar conceito a dilema"], "resources": [{"type": "revisar", "title": "Ética", "source": "Toda Matéria", "url": "https://www.todamateria.com.br/etica/"}]},
+        {"id": "politica-justica", "order": 3, "title": "Discuta política e justiça", "summary": "Analise Estado, liberdade, poder e justiça em diferentes tradições.", "duration": "80 min", "requires": "Teorias éticas", "outcomes": ["Definir poder e liberdade", "Comparar concepções de justiça"], "resources": [{"type": "aprender", "title": "Filosofia política", "source": "Khan Academy Brasil", "url": "https://pt.khanacademy.org/humanities"}]},
+        {"id": "filosofia-questoes", "order": 4, "title": "Leia questões conceituais", "summary": "Relacione texto, conceito e contexto para construir respostas justificadas.", "duration": "75 min", "requires": "Ética e política", "outcomes": ["Usar conceito com precisão", "Justificar uma interpretação"], "resources": [{"type": "praticar", "title": "Provas anteriores", "source": "Unicamp", "url": "https://www.comvest.unicamp.br/vestibulares-anteriores/"}]}
+      ]
+    },
+    {
+      "slug": "artes-linguagens",
+      "area": "Linguagens", "area_slug": "linguagens", "discipline": "Artes", "domain": "Arte, cultura e linguagem", "exam_targets": ["ENEM", "FUVEST", "Unicamp", "Unesp"],
+      "title": "Artes, cultura e linguagem", "short_title": "Artes e cultura", "description": "Leia imagens, obras e manifestações culturais relacionando forma, contexto e sociedade.", "level": "Fundamental", "duration": "4h 10min", "competencies": ["Leitura de imagens", "Cultura", "Contexto"], "accent": "coral", "featured": false, "study_tip": "Descreva o que observa antes de interpretar o significado da obra.",
+      "stages": [
+        {"id": "elementos-visuais", "order": 1, "title": "Observe elementos visuais", "summary": "Identifique composição, cor, linha, espaço e ritmo em imagens.", "duration": "55 min", "requires": "Interpretação textual", "outcomes": ["Descrever uma imagem", "Identificar elementos formais"], "resources": [{"type": "aprender", "title": "Artes", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/artes"}]},
+        {"id": "arte-contexto", "order": 2, "title": "Relacione arte e contexto", "summary": "Conecte produção artística, época, tecnologia e relações sociais.", "duration": "65 min", "requires": "Elementos visuais", "outcomes": ["Contextualizar uma obra", "Relacionar arte e sociedade"], "resources": [{"type": "revisar", "title": "História da arte", "source": "Toda Matéria", "url": "https://www.todamateria.com.br/historia-da-arte/"}]},
+        {"id": "manifestações-brasil", "order": 3, "title": "Leia manifestações brasileiras", "summary": "Compare patrimônio, cultura popular e expressões contemporâneas.", "duration": "70 min", "requires": "Arte e contexto", "outcomes": ["Reconhecer diversidade cultural", "Comparar manifestações"], "resources": [{"type": "aprender", "title": "Cultura brasileira", "source": "IPHAN", "url": "https://www.gov.br/iphan/pt-br"}]},
+        {"id": "arte-questoes", "order": 4, "title": "Interprete questões de artes", "summary": "Combine imagem, texto e contexto para sustentar uma leitura crítica.", "duration": "80 min", "requires": "Manifestações brasileiras", "outcomes": ["Usar evidências visuais", "Justificar interpretação"], "resources": [{"type": "praticar", "title": "Provas e gabaritos", "source": "INEP", "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos"}]}
+      ]
+    },
+    {
+      "slug": "educacao-fisica-corpo",
+      "area": "Linguagens", "area_slug": "linguagens", "discipline": "Educação Física", "domain": "Corpo, saúde e cultura", "exam_targets": ["ENEM"],
+      "title": "Corpo, saúde e cultura", "short_title": "Educação Física", "description": "Compreenda práticas corporais como fenômenos culturais, sociais e relacionados à saúde.", "level": "Fundamental", "duration": "3h 50min", "competencies": ["Corpo", "Saúde", "Cultura corporal"], "accent": "coral", "featured": false, "study_tip": "Evite reduzir práticas corporais a desempenho: observe também cultura, acesso e participação.",
+      "stages": [
+        {"id": "cultura-corporal", "order": 1, "title": "Reconheça cultura corporal", "summary": "Observe jogos, danças, lutas, esportes e práticas como produções sociais.", "duration": "55 min", "requires": "Leitura de textos e imagens", "outcomes": ["Classificar práticas corporais", "Relacionar corpo e cultura"], "resources": [{"type": "aprender", "title": "Educação Física", "source": "Brasil Escola", "url": "https://brasilescola.uol.com.br/educacao-fisica"}]},
+        {"id": "corpo-saude", "order": 2, "title": "Relacione corpo e saúde", "summary": "Diferencie atividade física, exercício, saúde e qualidade de vida.", "duration": "60 min", "requires": "Cultura corporal", "outcomes": ["Diferenciar conceitos de saúde", "Interpretar recomendações"], "resources": [{"type": "revisar", "title": "Atividade física e saúde", "source": "Ministério da Saúde", "url": "https://www.gov.br/saude/pt-br"}]},
+        {"id": "esporte-sociedade", "order": 3, "title": "Analise esporte e sociedade", "summary": "Discuta inclusão, mídia, gênero, competição e acesso às práticas.", "duration": "65 min", "requires": "Corpo e saúde", "outcomes": ["Analisar desigualdade de acesso", "Relacionar esporte e mídia"], "resources": [{"type": "aprender", "title": "Esporte e sociedade", "source": "Khan Academy Brasil", "url": "https://pt.khanacademy.org/humanities"}]},
+        {"id": "questoes-corpo", "order": 4, "title": "Interprete situações contextualizadas", "summary": "Use textos, gráficos e conceitos para analisar práticas corporais.", "duration": "70 min", "requires": "Esporte e sociedade", "outcomes": ["Interpretar dados de saúde", "Construir análise contextualizada"], "resources": [{"type": "praticar", "title": "Provas e gabaritos", "source": "INEP", "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos"}]}
+      ]
+    }
+  ]
+}
